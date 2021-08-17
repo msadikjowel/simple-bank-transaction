@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Bank Transcript</title>
+    <!-- tailwind css-->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-12">Simple <span class="text-purple-600 font-semibold">Bank</span>
+            Transcript</h1>
+    </header>
+    <main>
+        <section class="bg-green-100 w-3/4 mx-auto rounded mt-8">
+            <h3 class="m-2 text-2xl">Please Login</h3>
+            <div class="items-center">
+                <input id="user-email" class="border rounded block m-2 w-3/4 px-2" type="text" placeholder="Your Email">
+                <input id="user-password" class="border rounded block m-2 w-3/4 px-2" type="password" name="" id=""
+                    placeholder="Your Password">
+                <button id="login-submit"
+                    class="bg-yellow-500 px-2 py-1 text-white font-medium rounded m-2">Submit</button>
+                <p id = "error-message" class="px-2 py-1 text-red-600 hidden">Invalid email and password</p>
+            </div>
+        </section>
+    </main>
+    <script src="login.js"></script>
+</body>
+
+</html>
